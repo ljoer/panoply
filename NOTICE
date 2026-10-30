@@ -1,0 +1,5 @@
+assets/compose.yml is adapted from the SpecterOps BloodHound Compose file,
+Copyright 2023 Specter Ops, Inc., licensed under Apache License 2.0. This adapted file remains under
+Apache License 2.0. The license text is in assets/LICENSE-APACHE-2.0.txt.
+
+The remaining project code follows the repository MIT license.
