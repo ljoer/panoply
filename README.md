@@ -1,6 +1,8 @@
 <h1 align="center">Panoply</h1>
 
-Bash tool installer for Kali Linux.
+<p align="center">
+  Bash tool installer for Kali Linux.
+</p>
 
 <p align="center">
   <img src="assets/panoply-kali-terminal.gif" alt="Panoply">
