@@ -107,12 +107,6 @@ panoply bloodhound configure --port 8090
 Docker uses Kali's `docker.io` and `docker-cli`, with `docker compose` or
 `docker-compose`. Existing database secrets and volumes are preserved.
 
-## Go tools
-
-Kerbrute, Sourcemapper and github-subdomains build from upstream Go modules.
-Prerequisites are installed automatically. Example: `panoply install github-subdomains`.
-GitHub searches require a token; installation and doctor do not.
-
 ## Files and exit status
 
 - Application: `/usr/local/lib/panoply/releases/`; launcher: `/usr/local/bin/panoply`.
