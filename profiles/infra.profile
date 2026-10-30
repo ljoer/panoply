@@ -1,0 +1,10 @@
+@core
+impacket
+netexec
+certipy
+evil-winrm
+bloodhound-collector
+kerbrute
+ligolo
+freerdp
+peass

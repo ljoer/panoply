@@ -1,0 +1,48 @@
+# id|provider|package groups|command groups|probe arguments|dependencies|description
+git|apt|git|git|--version||Source control
+curl|apt|curl,ca-certificates|curl|--version||HTTPS downloads and trusted CA certificates
+jq|apt|jq|jq|--version||JSON processing
+tmux|apt|tmux|tmux|-V||Persistent terminal sessions
+python-runtime|apt|python3,python3-venv,pipx|python3,pipx|--version||Python plus venv support and isolated application installer
+archive-tools|apt|unzip,p7zip-full/7zip|unzip,7z/7zz|presence||Archive extraction
+network-utils|apt|dnsutils/bind9-dnsutils,iproute2,smbclient,ldap-utils|dig,ss,smbclient,ldapsearch|presence||DNS TCP SMB and LDAP utilities
+openssl|apt|openssl|openssl|version||Certificate and random secret utilities
+nmap|apt|nmap|nmap|--version||Network discovery and service enumeration
+ncat|apt|ncat|ncat|--version||Network connection utility
+rlwrap|apt|rlwrap|rlwrap|--version||Readline support for terminal sessions
+proxychains|apt|proxychains4|proxychains4|presence||Proxy wrapper
+tcpdump|apt|tcpdump|tcpdump|--version||Packet capture
+impacket|apt|impacket-scripts,python3-impacket|impacket-smbclient,impacket-GetUserSPNs,impacket-secretsdump|-h||Impacket library and representative command-line utilities
+netexec|apt|netexec|nxc/netexec|--help||Infrastructure assessment framework
+certipy|apt|certipy-ad|certipy-ad/certipy|-h||Active Directory Certificate Services assessment
+evil-winrm|apt|evil-winrm|evil-winrm|-h||WinRM client
+bloodhound-collector|apt|bloodhound-ce-python|bloodhound-ce-python|-h||BloodHound CE Python collector
+kerbrute|go|github.com/ropnop/kerbrute@latest|kerbrute|--help|go,git|Kerberos assessment utility (ropnop Go project)
+ligolo|apt|ligolo-ng|ligolo-proxy/ligolo-ng|presence||Ligolo-ng tunnelling tools
+chisel|apt|chisel|chisel|--help||Optional tunnel utility
+freerdp|apt|freerdp3-x11/freerdp2-x11|xfreerdp3/xfreerdp|presence||RDP client
+peass|peass|peass/linpeas,peass/winpeas||||PEASS release assets from distribution packages
+docker|docker|docker.io,docker-cli,docker-compose-v2/docker-compose-plugin/docker-compose|docker,docker-compose/docker|--version||Docker engine and Compose client
+bloodhound|bloodhound||||docker,openssl,jq,curl|Local BloodHound server setup and service management
+nuclei|apt|nuclei|nuclei|--version||Template-driven assessment engine
+subfinder|apt|subfinder|subfinder|--version||Subdomain discovery
+github-subdomains|go|github.com/gwen001/github-subdomains@latest|github-subdomains|-h|go,git|GitHub-based subdomain discovery (gwen001 Go project)
+assetfinder|apt|assetfinder|assetfinder|--help||Asset discovery
+sublist3r|apt|sublist3r|sublist3r|-h||Additional subdomain discovery
+dnsx|apt|dnsx|dnsx|--version||DNS toolkit
+httpx|apt|httpx-toolkit|httpx-toolkit|--version||ProjectDiscovery HTTP toolkit without Python httpx ambiguity
+feroxbuster|apt|feroxbuster|feroxbuster|--version||Content discovery
+ffuf|apt|ffuf|ffuf|-V||HTTP fuzzing
+seclists|apt|seclists||presence||Assessment wordlists (package presence check)
+burp|apt|burpsuite|burpsuite|presence||Burp Suite GUI (launcher presence check only)
+hashcat|apt|hashcat|hashcat|--version||Password auditing
+john|apt|john|john|presence||John the Ripper
+rockyou|wordlist|wordlists||||User-owned extracted rockyou wordlist
+filezilla|apt|filezilla|filezilla|presence||File transfer GUI
+remmina|apt|remmina|remmina|presence||Remote desktop GUI
+gedit|apt|gedit|gedit|presence||Graphical editor
+build-tools|apt|build-essential,pkg-config|gcc,g++,make,pkg-config|--version||Native build toolchain
+go|apt|golang-go/golang,ca-certificates|go|version||Go toolchain
+node|apt|nodejs,npm|node,npm|--version||JavaScript toolchain
+js-beautify|apt|node-js-beautify/jsbeautifier|js-beautify|--help||JavaScript formatting
+sourcemapper|go|github.com/denandz/sourcemapper@latest|sourcemapper|-h|go,git|Source-map extraction (denandz Go project)
