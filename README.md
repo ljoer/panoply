@@ -120,6 +120,3 @@ GitHub searches require a token; installation and doctor do not.
 - Package ownership: `/var/lib/panoply/packages/`.
 - Exit `0`: successful operation or nothing eligible; `1`: failure/incomplete
   result; `2`: usage/platform error; `130`/`143`: interrupted/terminated.
-
-Tests isolate package managers and Docker; they do not establish live Kali install
-or BloodHound compatibility. See `LICENSE` and `NOTICE` for licensing.
