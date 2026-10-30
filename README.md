@@ -1,11 +1,8 @@
 # Panoply
 
-Modular Bash tool installer for Kali Linux. Formerly Catana.
+Bash tool installer for Kali Linux.
 
 ![Panoply terminal demo](assets/panoply-kali-terminal.gif)
-
-The demo uses the interactive menu, choices 1–6. Installation, repair, BloodHound
-setup and removal are previews only; no system changes are made.
 
 ## Install or update
 
