@@ -15,14 +15,12 @@ panoply version
 panoply
 ```
 
-Requires Kali Linux and Bash 4+. Run Panoply as your normal user; system changes
-request sudo. Repeat the commands above after downloading an updated repository.
-The launcher uses a versioned copy: editing the repository alone does not update it.
-
 If your shell selects another copy, check `type -a panoply` or run
 `/usr/local/bin/panoply` explicitly.
 
-## Synopsis
+## Manual
+
+Besides the menu, you can run it like this:
 
 ```text
 panoply [options] command [profile|tool ...]
@@ -123,13 +121,6 @@ GitHub searches require a token; installation and doctor do not.
 - Package ownership: `/var/lib/panoply/packages/`.
 - Exit `0`: successful operation or nothing eligible; `1`: failure/incomplete
   result; `2`: usage/platform error; `130`/`143`: interrupted/terminated.
-
-## Development
-
-```bash
-python3 -m unittest discover -s tests -v
-shellcheck -x bin/panoply install.sh lib/*.sh assets/logo.sh
-```
 
 Tests isolate package managers and Docker; they do not establish live Kali install
 or BloodHound compatibility. See `LICENSE` and `NOTICE` for licensing.
