@@ -1,0 +1,7 @@
+# Registry/context variables are intentionally shared across sourced modules.
+disable=SC2034
+source-path=.
+# Literal shell programs are intentionally passed to bash -c for later expansion.
+disable=SC2016
+# Registry arrays are associative and declared centrally by pn_init.
+disable=SC2004
