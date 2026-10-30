@@ -10,7 +10,6 @@ Extract or clone this repository, open a terminal in its directory, then run:
 
 ```bash
 sudo bash install.sh
-hash -r
 panoply version
 panoply
 ```
