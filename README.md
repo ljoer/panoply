@@ -1,8 +1,10 @@
-# Panoply
+<h1 align="center">Panoply</h1>
 
 Bash tool installer for Kali Linux.
 
-![Panoply terminal demo](assets/panoply-kali-terminal.gif)
+<p align="center">
+  <img src="assets/panoply-kali-terminal.gif" alt="Panoply">
+</p>
 
 ## Install or update
 
