@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+if (( BASH_VERSINFO[0] < 4 )); then
+    printf 'Panoply requires Bash 4 or newer.\n' >&2
+    exit 2
+fi
+set -o pipefail
+PN_ROOT=$(cd -- "$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")/.." && pwd -P) || exit 2
+# shellcheck source=lib/app.sh
+source "$PN_ROOT/lib/app.sh" || exit 2
+pn_main "$@"

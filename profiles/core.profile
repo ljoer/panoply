@@ -1,0 +1,13 @@
+git
+curl
+jq
+tmux
+python-runtime
+archive-tools
+network-utils
+openssl
+nmap
+ncat
+rlwrap
+proxychains
+tcpdump
