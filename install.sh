@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Explicit application installation; does not install assessment tools.
+#application installation, does not installtools
 set -euo pipefail
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
 prefix=/usr/local
