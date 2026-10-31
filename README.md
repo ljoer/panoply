@@ -1,7 +1,7 @@
 <h1 align="center">Panoply</h1>
 
 <p align="center">
-  Bash tool installer for Kali Linux.
+  Pentesting bash tool installer for Debian Linux.
 </p>
 
 <p align="center">
